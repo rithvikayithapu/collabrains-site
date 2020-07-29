@@ -1,10 +1,9 @@
-@font-face {
-  font-family: 'Gotham';
-  src: local('Gotham'), url(./fonts/Gotham-Regular.otf) format(opentype);
+.heading {
+  font-family: Gotham;
 }
 
-.body {
-  font-family: Gotham;
+.paragraph {
+  font-family: GothamNormal;
 }
 
 .row-header{

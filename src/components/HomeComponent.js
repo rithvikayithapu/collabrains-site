@@ -5,8 +5,8 @@ function Home() {
     <div className="container">
       <div className="row">
         <div className="col-6">
-          <h4>Be a part of our Community</h4>
-          <p>The title and other copy in the introduction grab users and make them feel compelled to action, but you should also add an attractive illustration or background to ent </p>
+          <h1 className="heading">Be a part of our Community</h1>
+          <p className="paragraph">The title and other copy in the introduction grab users and make them feel compelled to action, but you should also add an attractive illustration or background to ent </p>
         </div>
       </div>
     </div>
