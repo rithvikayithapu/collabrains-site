@@ -1,14 +1,52 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Button, Carousel, CarouselItem, CarouselControl, CarouselIndicators } from 'reactstrap';
 
-function Home() {
+import { TEXT } from '../dataStore';
+
+const Home = (props) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [animating, setAnimating] = useState(false);
+
+  const next = () => {
+    if(animating) return;
+    const nextIndex = activeIndex === TEXT.length-1 ? 0 : activeIndex+1;
+    setActiveIndex(nextIndex);
+  }
+
+  const previous = () => {
+    if(animating) return;
+    const nextIndex = activeIndex === 0 ? TEXT.length-1 : activeIndex-1;
+    setActiveIndex(nextIndex);
+  }
+
+  const goToIndex = (newIndex) => {
+    if(animating) return;
+    setActiveIndex(newIndex);
+  }
+
+  const slides = TEXT.map((item) => {
+    return (
+      <CarouselItem onExiting={() => setAnimating(true)} onExited={() => setAnimating(false)} key={item.id}>
+        <div className="row home">
+          <div className="col-3 col-sm-5">
+            <h1 className="heading pt-5 pb-5">{item.heading}</h1>
+            <p className="content pb-5">{item.content}</p>
+            <Button className="btn btn-lg text-white heading discover">Discover</Button>
+          </div>
+          <div className="col-9 col-sm-7">
+            <img src={item.image} alt={item.alt} className="img-fluid" />
+          </div>
+        </div>
+      </CarouselItem>
+    );
+  });
+
   return(
     <div className="container">
-      <div className="row">
-        <div className="col-6">
-          <h1 className="heading">Be a part of our Community</h1>
-          <p className="paragraph">The title and other copy in the introduction grab users and make them feel compelled to action, but you should also add an attractive illustration or background to ent </p>
-        </div>
-      </div>
+      <Carousel activeIndex={activeIndex} next={next} previous={previous}>
+        <CarouselIndicators className="carousel-indicator" items={TEXT} activeIndex={activeIndex} onClickHandler={goToIndex} />
+        {slides}
+      </Carousel>
     </div>
   );
 }

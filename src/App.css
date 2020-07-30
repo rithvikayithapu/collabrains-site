@@ -1,9 +1,27 @@
-.heading {
-  font-family: Gotham;
+.content {
+  font-family: GothamLight;
 }
 
-.paragraph {
-  font-family: GothamNormal;
+.heading {
+  font-family: Gotham;
+  letter-spacing: 1px;
+}
+
+.home {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+}
+
+.carousel-indicator {
+  background-color: #542AB8;
+}
+
+.discover {
+  width: 209px;
+  height: 54px;
+  background: linear-gradient(301.19deg, #AC27DB -82.41%, #4726CE 128.52%);
+  box-shadow: 1px 4px 30px rgba(145, 65, 230, 0.37);
+  border-radius: 65px;
 }
 
 .row-header{
