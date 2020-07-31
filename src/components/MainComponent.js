@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Home from './HomeComponent';
 import Header from './HeaderComponent';
 import Webinar from './WebinarsComponent';
+import PurpleBg from './PurpleBgComponent';
+import Projects from './ProjectsComponent';
 
 class Main extends Component {
   render() {
@@ -10,6 +12,8 @@ class Main extends Component {
         <Header />
         <Home />
         <Webinar />
+        <PurpleBg />
+        <Projects />
       </div>
     );
   } 

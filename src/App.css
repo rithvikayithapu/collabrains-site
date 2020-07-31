@@ -13,7 +13,11 @@
 }
 
 .carousel-indicator {
-  background-color: #542AB8;
+  background: linear-gradient(78.35deg, #5814B3 17.66%, #2030B8 95.59%);
+}
+
+.webinarButton {
+  background: rgba(131, 80, 213, 0.5);
 }
 
 .discover {
@@ -24,6 +28,16 @@
   border-radius: 65px;
 }
 
+.purplebg {
+  position: absolute;
+  width: 1519px;
+  height: 670px;
+  top: 660px;
+
+  background: linear-gradient(78.35deg, #5814B3 17.66%, #2030B8 95.59%);
+  z-index: -1;
+}
+
 .row-header{
   margin:0px auto;
   padding:0px auto;
@@ -31,8 +45,7 @@
 
 .row-content {
   margin:0px auto;
-  padding: 50px 0px 50px 0px;
-  border-bottom: 1px ridge;
+  padding: 70px 0px 70px 0px;
   min-height:400px;
 }
 

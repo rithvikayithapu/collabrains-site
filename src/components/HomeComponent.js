@@ -3,7 +3,7 @@ import { Button, Carousel, CarouselItem, CarouselControl, CarouselIndicators } f
 
 import { TEXT } from '../dataStore';
 
-const Home = (props) => {
+const Home = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -34,7 +34,7 @@ const Home = (props) => {
             <Button className="btn btn-lg text-white heading discover">Discover</Button>
           </div>
           <div className="col-9 col-sm-7">
-            <img src={item.image} alt={item.alt} className="img-fluid" />
+            <img src={item.image} alt={item.alt} className="img-fluid m-2" />
           </div>
         </div>
       </CarouselItem>
@@ -42,7 +42,7 @@ const Home = (props) => {
   });
 
   return(
-    <div className="container">
+    <div className="container mb-3">
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
         <CarouselIndicators className="carousel-indicator" items={TEXT} activeIndex={activeIndex} onClickHandler={goToIndex} />
         {slides}
