@@ -20,10 +20,12 @@ const Webinar = () => {
 
   const webinars = WEBINARS.map((item) => {
     return(
-      <div key={ item.id } className="p-3">
+      <div key={ item.id }>
         <NavLink href="#">
-        <img className="w-100 h-100 webinarBoxes" src={ item.image } alt={ item.alt } />
-        <h3 className="text-white heading">{ item.topic }</h3>
+        <img className="webinarBoxes" src={ item.image } alt={ item.alt } />
+          <div className="card-img-overlay">
+            <h3 className="text-white heading">{ item.topic }</h3>
+          </div>
         </NavLink>
       </div>
     );
@@ -37,7 +39,7 @@ const Webinar = () => {
           {/* <img className="img-fluid" src="assets/images/Group-248.png" alt="live logo" /> */}
         </div>
       </div>
-      <div className="row row-content">
+      <div className="row">
         <div className="col-12">
           <h4 className="heading d-flex justify-content-center">Recent</h4>
         </div>

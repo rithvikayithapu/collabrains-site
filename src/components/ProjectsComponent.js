@@ -12,7 +12,7 @@ const Projects = () => {
         className="vertical-timeline-element-work"
         contentStyle={{ background: '#fff', color: '#000' }}
         iconStyle={{ background: 'rgba(121, 53, 224, 0.63)', border: '1px solid #601BCA' }}
-
+        key={item.id}
       >
         <div className="row">
           <div className="col-8">
@@ -46,7 +46,7 @@ const Projects = () => {
       <VerticalTimeline>
         {project}
       </VerticalTimeline>
-      <div className=" d-flex justify-content-center">
+      <div className="row-content d-flex justify-content-center">
         <button className="viewMore buttonText text-white">View More</button>
       </div>
     </div>

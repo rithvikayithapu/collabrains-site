@@ -137,8 +137,43 @@ const PROJECTS = [
   }
 ];
 
+const MEETUS = [
+  {
+    id: 1,
+    name: 'Rohan Sharma',
+    description: 'The title and other copy in the introduction',
+    image: `${process.env.PUBLIC_URL}/assets/images/773-7730858_arisa-conwell-circle-girl-1.png`,
+    alt: 'profile picture'
+  },
+  {
+    id: 2,
+    name: 'Rohan Sharma',
+    description: 'The title and other copy in the introduction',
+    image: `${process.env.PUBLIC_URL}/assets/images/773-7730858_arisa-conwell-circle-girl-2.png`,
+    alt: 'profile picture'
+  },
+  {
+    id: 3,
+    name: 'Rohan Sharma',
+    description: 'The title and other copy in the introduction',
+    image: `${process.env.PUBLIC_URL}/assets/images/773-7730858_arisa-conwell-circle-girl-3.png`,
+    alt: 'profile picture'
+  },
+];
+
+const SERVICES = [
+  {
+    lines: 'The title and other copy in the introduction grab users and make them feel compelled to action, but you should also add an attractive illustration or background to ent',
+    instagram: `${process.env.PUBLIC_URL}/assets/images/insta-2.png`,
+    facebook: `${process.env.PUBLIC_URL}/assets/images/facebook-2.png`,
+    linkedin: `${process.env.PUBLIC_URL}/assets/images/linkedin-2.png`
+  }
+];
+
 export {
   TEXT,
   WEBINARS,
-  PROJECTS
+  PROJECTS,
+  MEETUS,
+  SERVICES
 };

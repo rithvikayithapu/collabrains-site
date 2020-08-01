@@ -4,6 +4,9 @@ import Header from './HeaderComponent';
 import Webinar from './WebinarsComponent';
 import PurpleBg from './PurpleBgComponent';
 import Projects from './ProjectsComponent';
+import MeetUs from './MeetUsComponent';
+import MeetUsBanner from './MeetUsBannerComponent';
+import Services from './ServicesComponent';
 
 class Main extends Component {
   render() {
@@ -14,6 +17,9 @@ class Main extends Component {
         <Webinar />
         <PurpleBg />
         <Projects />
+        <MeetUs />
+        <MeetUsBanner />
+        <Services />
       </div>
     );
   } 
