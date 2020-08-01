@@ -82,7 +82,63 @@ const WEBINARS = [
   }
 ];
 
+const PROJECTS = [
+  {
+    id: 1,
+    image: `${process.env.PUBLIC_URL}/assets/images/Rectangle-66.png`,
+    alt: 'image',
+    number: 'Project One',
+    title: 'Webinars',
+    points: [
+      {
+        id: 1,
+        message: 'Machine Learning'
+      },
+      {
+        id: 2,
+        message: 'Machine Learning'
+      }
+    ],
+    content: 'The title and other copy in the introduction grab users and make them feel compelled to action, but you should also add an attractive illustration or background to ent'
+  },
+  {
+    id: 2,
+    image: `${process.env.PUBLIC_URL}/assets/images/Rectangle-38.png`,
+    alt: 'image',
+    number: 'Project One',
+    title: 'Webinars',
+    points: [
+      {
+        message: 'Machine Learning'
+      },
+      {
+        message: 'Machine Learning'
+      }
+    ],
+    content: 'The title and other copy in the introduction grab users and make them feel compelled to action, but you should also add an attractive illustration or background to ent'
+  },
+  {
+    id: 3,
+    image: `${process.env.PUBLIC_URL}/assets/images/Rectangle-39.png`,
+    alt: 'image',
+    number: 'Project One',
+    title: 'Webinars',
+    points: [
+      {
+        id: 1,
+        message: 'Machine Learning'
+      },
+      {
+        id: 2,
+        message: 'Machine Learning'
+      }
+    ],
+    content: 'The title and other copy in the introduction grab users and make them feel compelled to action, but you should also add an attractive illustration or background to ent'
+  }
+];
+
 export {
   TEXT,
-  WEBINARS
+  WEBINARS,
+  PROJECTS
 };

@@ -22,7 +22,7 @@ const Webinar = () => {
     return(
       <div key={ item.id } className="p-3">
         <NavLink href="#">
-        <img className="w-100 h-100" src={ item.image } alt={ item.alt } />
+        <img className="w-100 h-100 webinarBoxes" src={ item.image } alt={ item.alt } />
         <h3 className="text-white heading">{ item.topic }</h3>
         </NavLink>
       </div>
@@ -33,16 +33,20 @@ const Webinar = () => {
     <div className="container">
       <div className="row row-header">
         <div className="col-12 d-flex justify-content-center">
-          <h1 className="heading d-flex text-white">Webinars</h1>
+          <h1 className="heading d-flex">Webinars</h1>
           {/* <img className="img-fluid" src="assets/images/Group-248.png" alt="live logo" /> */}
         </div>
       </div>
       <div className="row row-content">
         <div className="col-12">
-          <h4 className="content text-white d-flex justify-content-center">Recent</h4>
-        <NavLink href="#">
-          <p className="content text-white d-flex justify-content-end">Watch More</p>
+          <h4 className="heading d-flex justify-content-center">Recent</h4>
+        </div>
+        <div className="col-2 offset-10">
+        <NavLink href="#" className="content text-dark d-flex justify-content-end">
+          Watch More
         </NavLink>
+        </div>
+        <div className="col-12">
         <Carousel responsive={responsive}>
           {webinars}
         </Carousel>
