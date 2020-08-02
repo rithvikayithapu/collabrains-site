@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand, Nav, NavItem, NavbarToggler,NavLink, Collapse } from 'reactstrap';
-import Scrollspy from 'react-scrollspy';
 
 class Header extends Component {
   constructor(props) {
