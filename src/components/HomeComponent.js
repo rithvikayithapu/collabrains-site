@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Carousel, CarouselItem, CarouselControl, CarouselIndicators } from 'reactstrap';
+import { Button, Carousel, CarouselItem, CarouselIndicators } from 'reactstrap';
 
 import { TEXT } from '../dataStore';
 
@@ -33,8 +33,8 @@ const Home = () => {
             <p className="content pb-5">{item.content}</p>
             <Button className="btn btn-lg text-white heading discover">Discover</Button>
           </div>
-          <div className="col-9 col-sm-7">
-            <img src={item.image} alt={item.alt} className="img-fluid m-2" />
+          <div className="col-9 col-sm-7 d-flex align-items-end">
+            <img src={item.image} alt={item.alt} className="m-2" />
           </div>
         </div>
       </CarouselItem>

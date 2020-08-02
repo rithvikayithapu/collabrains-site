@@ -24,7 +24,7 @@ const TEXT = [
   },
   {
     id: 4,
-    image: `${process.env.PUBLIC_URL}/assets/images/Humaaans-3-Characters-apps.png`,
+    image: `${process.env.PUBLIC_URL}/assets/images/Humaaans-2-Characters.png`,
     heading: 'Be a part of our Community',
     content: 'The title and other copy in the introduction grab users and make them feel compelled to action, but you should also add an attractive illustration or background to ent.',
     alt: '3 characters apps'
@@ -161,19 +161,9 @@ const MEETUS = [
   },
 ];
 
-const SERVICES = [
-  {
-    lines: 'The title and other copy in the introduction grab users and make them feel compelled to action, but you should also add an attractive illustration or background to ent',
-    instagram: `${process.env.PUBLIC_URL}/assets/images/insta-2.png`,
-    facebook: `${process.env.PUBLIC_URL}/assets/images/facebook-2.png`,
-    linkedin: `${process.env.PUBLIC_URL}/assets/images/linkedin-2.png`
-  }
-];
-
 export {
   TEXT,
   WEBINARS,
   PROJECTS,
-  MEETUS,
-  SERVICES
+  MEETUS
 };

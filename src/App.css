@@ -12,8 +12,20 @@
 }
 
 .home {
-  padding: 70px 30px 70px 30px;
+  padding: 100px 30px 200px 30px;
   margin: 0px auto;
+}
+
+.homePurple {
+  position: absolute;
+  width: 653px;
+  height: 995px;
+  left: 865px;
+  top: -3px;
+
+  background: url(Vector-294-1.png);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  z-index: -1;
 }
 
 .carousel-indicator {
@@ -23,10 +35,9 @@
 .webinarButton {
   background: rgba(131, 80, 213, 0.5);
 }
-.webinarBoxes {
-  width: 220px;
-  height: 243px;
-  z-index: -1;
+
+.webinarComponent {
+  padding: 110px 0px 200px 0px;
 }
 
 .discover {
@@ -40,8 +51,8 @@
 .purplebg {
   position: absolute;
   width: 1519px;
-  height: 370px;
-  top: 960px;
+  height: 270px;
+  top: 987px;
 
   background: linear-gradient(78.35deg, #5814B3 17.66%, #2030B8 95.59%);
   z-index: -1;
@@ -99,9 +110,8 @@
   border-radius: 20px;
 }
 
-.row-header{
-  margin:0px auto;
-  padding:0px auto;
+.services {
+  padding: 100px 0px 50px 0px;
 }
 
 .row-content {
@@ -113,5 +123,5 @@
 .footer{
   background-color: #5446DB;
   margin:0px auto;
-  padding: 20px 0px 20px 0px;
+  padding: 40px;
 }

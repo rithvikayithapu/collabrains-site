@@ -5,6 +5,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 import { WEBINARS } from '../dataStore';
+import HomePurple from './HomePurpleComponent';
 
 const Webinar = () => {
   const responsive = {
@@ -22,7 +23,7 @@ const Webinar = () => {
     return(
       <div key={ item.id }>
         <NavLink href="#">
-        <img className="webinarBoxes" src={ item.image } alt={ item.alt } />
+        <img src={ item.image } alt={ item.alt } />
           <div className="card-img-overlay">
             <h3 className="text-white heading">{ item.topic }</h3>
           </div>
@@ -32,23 +33,25 @@ const Webinar = () => {
   });
 
   return(
-    <div className="container">
-      <div className="row row-header">
-        <div className="col-12 d-flex justify-content-center">
-          <h1 className="heading d-flex">Webinars</h1>
-          {/* <img className="img-fluid" src="assets/images/Group-248.png" alt="live logo" /> */}
+    <div className="container webinarComponent">
+      <div className="row">
+        <div className="col-7 d-flex justify-content-end">
+          <h1 className="heading">Webinars</h1>
+        </div>
+        <div className="col-5 d-flex justify-content-start">
+          <img className="img-fluid" src="assets/images/Group-248.png" alt="live logo" />
         </div>
       </div>
       <div className="row">
         <div className="col-12">
           <h4 className="heading d-flex justify-content-center">Recent</h4>
         </div>
-        <div className="col-2 offset-10">
+        <div className="col-2 offset-9">
         <NavLink href="#" className="content text-dark d-flex justify-content-end">
           Watch More
         </NavLink>
         </div>
-        <div className="col-12">
+        <div className="col-12 p-3">
         <Carousel responsive={responsive}>
           {webinars}
         </Carousel>
