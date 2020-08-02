@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Carousel, CarouselItem, CarouselIndicators } from 'reactstrap';
+import HomePurple from './HomePurpleComponent';
 
 import { TEXT } from '../dataStore';
 
@@ -42,7 +43,8 @@ const Home = () => {
   });
 
   return(
-    <div className="container mb-3">
+    <div className="container mb-3" id="#home">
+      <HomePurple />
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
         <CarouselIndicators className="carousel-indicator" items={TEXT} activeIndex={activeIndex} onClickHandler={goToIndex} />
         {slides}

@@ -40,7 +40,7 @@ const Projects = () => {
   });
 
   return(
-    <div className="container">
+    <div className="container" id="#projects">
       <h4 className="heading d-flex justify-content-center">Great & Awesome Works</h4>
       <h1 className="heading d-flex justify-content-center">OUR PROJECTS<h1 className="heading fullstop">.</h1></h1>
       <VerticalTimeline>

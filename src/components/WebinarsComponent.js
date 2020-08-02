@@ -5,7 +5,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 import { WEBINARS } from '../dataStore';
-import HomePurple from './HomePurpleComponent';
+import PurpleBg from './PurpleBgComponent';
 
 const Webinar = () => {
   const responsive = {
@@ -33,7 +33,7 @@ const Webinar = () => {
   });
 
   return(
-    <div className="container webinarComponent">
+    <div className="container webinarComponent" id="#webinars">
       <div className="row">
         <div className="col-7 d-flex justify-content-end">
           <h1 className="heading">Webinars</h1>
@@ -57,6 +57,7 @@ const Webinar = () => {
         </Carousel>
         </div>
       </div>
+      <PurpleBg />
     </div>
   );
 }

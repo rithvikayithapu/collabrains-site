@@ -11,6 +11,10 @@
   font-family: GothamMedium;
 }
 
+.navbar {
+  background-color: #5446DB;
+}
+
 .home {
   padding: 100px 30px 200px 30px;
   margin: 0px auto;
@@ -20,7 +24,7 @@
   position: absolute;
   width: 653px;
   height: 995px;
-  left: 865px;
+  left: 866px;
   top: -3px;
 
   background: url(Vector-294-1.png);
@@ -52,6 +56,7 @@
   position: absolute;
   width: 1519px;
   height: 270px;
+  left: 0px;
   top: 987px;
 
   background: linear-gradient(78.35deg, #5814B3 17.66%, #2030B8 95.59%);
@@ -88,15 +93,15 @@
 }
 
 .meetUs {
-  padding: 100px 0px 200px 0px;
+  padding: 100px 0px 100px 0px;
 }
 
 .meetUsBanner {
   position: absolute;
   width: 1515px;
-  height: 563.5px;
+  height: 513.5px;
   left: -1px;
-  top: 3241.5px;
+  top: 3466.5px;
   background-color: #171717;
   z-index: -1;
   padding: 0px 0px 50px 0px;
