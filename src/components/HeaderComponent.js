@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand, Nav, NavItem, NavbarToggler,NavLink, Collapse } from 'reactstrap';
+import { Link } from 'react-scroll';
 
 class Header extends Component {
   constructor(props) {
@@ -27,19 +28,19 @@ class Header extends Component {
           <Collapse isOpen={this.state.isNavOpen} navbar>
             <Nav navbar className="ml-auto heading">
               <NavItem>
-                <NavLink className="nav-link" href="/home">Home</NavLink> 
+                <Link activeClass="active" to="home" spy={true} smooth={true} duration={500}><NavLink className="nav-link" href="#home">Home</NavLink></Link>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" href="/webinars">Webinars</NavLink> 
+                <Link activeClass="active" to="webinars" spy={true} smooth={true} duration={500}><NavLink className="nav-link" href="#webinars">Webinars</NavLink></Link>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" href="/projects">Our Projects</NavLink> 
+                <Link activeClass="active" to="projects" spy={true} smooth={true} duration={500}><NavLink className="nav-link" href="#projects">Our Projects</NavLink></Link>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" href="/meetus">Meet Us</NavLink> 
+                <Link activeClass="active" to="meetus" spy={true} smooth={true} duration={500}><NavLink className="nav-link" href="#meetus">Meet Us</NavLink></Link>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-link" href="/ourservices">Our Services</NavLink> 
+                <Link activeClass="active" to="ourservices" spy={true} smooth={true} duration={500}><NavLink className="nav-link" href="#ourservices">Our Services</NavLink></Link>
               </NavItem>
             </Nav>
           </Collapse>

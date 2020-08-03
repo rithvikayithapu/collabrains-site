@@ -22,7 +22,7 @@ const MeetUs = () => {
   });
 
   return(
-    <div className="container" id="#meetus">
+    <div className="container" id="meetus">
       <div className="row meetUs">
         <div className="col-12">
           <h3 className="buttonText d-flex justify-content-center">You Can Trust Us</h3>

@@ -6,8 +6,6 @@ import Projects from './ProjectsComponent';
 import MeetUs from './MeetUsComponent';
 import Services from './ServicesComponent';
 import Footer from './FooterComponent';
-import { Redirect } from 'react-router-dom';
-import Scrollspy from 'react-scrollspy';
 
 class Main extends Component {
   render() {
@@ -20,8 +18,6 @@ class Main extends Component {
           <MeetUs />
           <Services />
           <Footer />
-          <Redirect to="home" />
-          <Scrollspy items={['home','webinars','projects','meetus','ourservices']} />
       </div>
     );
   } 

@@ -33,7 +33,7 @@ const Webinar = () => {
   });
 
   return(
-    <div className="container webinarComponent" id="#webinars">
+    <div className="container webinarComponent" id="webinars">
       <div className="row">
         <div className="col-7 d-flex justify-content-end">
           <h1 className="heading">Webinars</h1>

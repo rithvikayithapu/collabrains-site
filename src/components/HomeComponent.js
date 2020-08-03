@@ -43,7 +43,7 @@ const Home = () => {
   });
 
   return(
-    <div className="container mb-3" id="#home">
+    <div className="container mb-3" id="home">
       <HomePurple />
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
         <CarouselIndicators className="carousel-indicator" items={TEXT} activeIndex={activeIndex} onClickHandler={goToIndex} />
