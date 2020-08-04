@@ -21,11 +21,11 @@ const Webinar = () => {
 
   const webinars = WEBINARS.map((item) => {
     return(
-      <div key={ item.id }>
+      <div key={ item.id } className="webinarCard">
         <NavLink href="#">
         <img src={ item.image } alt={ item.alt } />
-          <div className="card-img-overlay">
-            <h3 className="text-white heading">{ item.topic }</h3>
+          <div className="card-img-overlay d-flex justify-content-center align-items-end">
+            <h6 className="text-white heading">{ item.topic }</h6>
           </div>
         </NavLink>
       </div>
@@ -52,7 +52,7 @@ const Webinar = () => {
         </NavLink>
         </div>
         <div className="col-12 p-3">
-        <Carousel responsive={responsive}>
+        <Carousel className="webinarPadding" responsive={responsive}>
           {webinars}
         </Carousel>
         </div>

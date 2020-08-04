@@ -89,16 +89,8 @@ const PROJECTS = [
     alt: 'image',
     number: 'Project One',
     title: 'Webinars',
-    points: [
-      {
-        id: 1,
-        message: 'Machine Learning'
-      },
-      {
-        id: 2,
-        message: 'Machine Learning'
-      }
-    ],
+    message1: 'Machine Learning',
+    message2: 'Machine Learning',
     content: 'The title and other copy in the introduction grab users and make them feel compelled to action, but you should also add an attractive illustration or background to ent'
   },
   {
@@ -107,14 +99,8 @@ const PROJECTS = [
     alt: 'image',
     number: 'Project One',
     title: 'Webinars',
-    points: [
-      {
-        message: 'Machine Learning'
-      },
-      {
-        message: 'Machine Learning'
-      }
-    ],
+    message1: 'Machine Learning',
+    message2: 'Machine Learning',
     content: 'The title and other copy in the introduction grab users and make them feel compelled to action, but you should also add an attractive illustration or background to ent'
   },
   {
@@ -123,16 +109,8 @@ const PROJECTS = [
     alt: 'image',
     number: 'Project One',
     title: 'Webinars',
-    points: [
-      {
-        id: 1,
-        message: 'Machine Learning'
-      },
-      {
-        id: 2,
-        message: 'Machine Learning'
-      }
-    ],
+    message1: 'Machine Learning',
+    message2: 'Machine Learning',
     content: 'The title and other copy in the introduction grab users and make them feel compelled to action, but you should also add an attractive illustration or background to ent'
   }
 ];

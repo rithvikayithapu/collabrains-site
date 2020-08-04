@@ -9,10 +9,12 @@ const MeetUs = () => {
   const leaders = MEETUS.map((item) => {
     return(
       <Card className="meetUsCard" key={item.id}>
-        <CardImg top src={item.image} alt={item.alt} />
+        <div className="d-flex justify-content-center">
+          <CardImg className="meetUsImg" top src={item.image} alt={item.alt} />
+        </div>
         <CardBody>
-          <CardTitle className="heading d-flex justify-content-center">{item.name}</CardTitle>
-          <CardText className="content text-center d-flex justify-content-center">{item.description}</CardText>
+          <CardTitle className="heading d-flex justify-content-center mb-5">{item.name}</CardTitle>
+          <CardText className="content text-center d-flex justify-content-center mb-5">{item.description}</CardText>
           <div className="d-flex justify-content-center">
             <Button className="timelineButton content text-white ">Check Profile</Button>
           </div>
@@ -31,7 +33,7 @@ const MeetUs = () => {
         </div>
       </div>
       <MeetUsBanner />
-      <div className="row d-flex justify-content-center">
+      <div className="row d-flex justify-content-center mt-5">
         <CardDeck>
           {leaders}
         </CardDeck>

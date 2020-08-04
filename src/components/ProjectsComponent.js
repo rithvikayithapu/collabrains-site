@@ -24,8 +24,8 @@ const Projects = () => {
           </div>
         </div>
         <ul>
-          <li>{item.points.message}</li>
-          <li>{item.points.message}</li>
+          <li className="content">{item.message1}</li>
+          <li className="content">{item.message2}</li>
         </ul>
         <p className="content">
           {item.content}

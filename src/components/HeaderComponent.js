@@ -40,7 +40,7 @@ class Header extends Component {
                 <Link activeClass="active" to="meetus" spy={true} smooth={true} duration={500}><NavLink className="nav-link" href="#meetus">Meet Us</NavLink></Link>
               </NavItem>
               <NavItem>
-                <Link activeClass="active" to="ourservices" spy={true} smooth={true} duration={500}><NavLink className="nav-link" href="#ourservices">Our Services</NavLink></Link>
+                <Link activeClass="active" to="ourservices" spy={true} offset={13} smooth={true} duration={500}><NavLink className="nav-link" href="#ourservices">Our Services</NavLink></Link>
               </NavItem>
             </Nav>
           </Collapse>
