@@ -11,8 +11,10 @@
   font-family: GothamMedium;
 }
 
-.navbar {
-  background-color: #5446DB;
+@media screen and (min-width: 992px) {
+  .navbar {
+    background-color: #5446DB;
+  }
 }
 
 .home {
@@ -29,6 +31,18 @@
   background: url(Vector-294-1.png);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   z-index: -1;
+}
+
+@media screen and (max-width: 400px) {
+  .homePurple {
+    position: absolute;
+    width: 260px;
+    height: 396px;
+    left: 154px;
+    top: 0px;
+
+  background: url(Vector-294-2.png);
+  }
 }
 
 .carousel-indicator {

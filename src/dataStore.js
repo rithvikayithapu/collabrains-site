@@ -1,5 +1,38 @@
 import React from 'react';
 
+const LINKS = [
+  {
+    id: 'home',
+    to: 'home',
+    href: '#home',
+    title: 'Home'
+  },
+  {
+    id: 'webinars',
+    to: 'webinars',
+    href: '#webinars',
+    title: 'Webinars'
+  },
+  {
+    id: 'projects',
+    to: 'projects',
+    href: '#projects',
+    title: 'Our Projects'
+  },
+  {
+    id: 'meetus',
+    to: 'meetus',
+    href: '#meetus',
+    title: 'Meet Us'
+  },
+  {
+    id: 'ourservices',
+    to: 'ourservices',
+    href: '#ourservices',
+    title: 'Our Services'
+  }
+];
+
 const TEXT = [
   {
     id: 1,
@@ -140,6 +173,7 @@ const MEETUS = [
 ];
 
 export {
+  LINKS,
   TEXT,
   WEBINARS,
   PROJECTS,
