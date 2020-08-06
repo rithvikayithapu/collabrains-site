@@ -11,10 +11,8 @@
   font-family: GothamMedium;
 }
 
-@media screen and (min-width: 992px) {
-  .navbar {
-    background-color: #5446DB;
-  }
+.navbar {
+  background-color: #5446DB;
 }
 
 .home {
@@ -33,7 +31,7 @@
   z-index: -1;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 484px) {
   .homePurple {
     position: absolute;
     width: 260px;
@@ -65,6 +63,18 @@
   transform: scale(1.05);
 }
 
+@media screen and (max-width: 484px) {
+  .webinarCard {
+    width: 101px;
+    height: 112px; 
+    transition: transform .2s;
+  }
+
+  .webinarCard:hover {
+    transform: scale(1.05);
+  }
+}
+
 .webinarComponent {
   padding: 110px 0px 200px 0px;
 }
@@ -86,6 +96,19 @@
 
   background: linear-gradient(78.35deg, #5814B3 17.66%, #2030B8 95.59%);
   z-index: -1;
+}
+
+@media screen and (max-width: 484px) {
+  .purplebg {
+    position: absolute;
+    width: 1090px;
+    height: 226px;
+    left: -670px;
+    top: 1114px;
+
+    background: linear-gradient(76.16deg, #5814B3 17.66%, #2030B8 95.59%);
+    z-index: -1;
+  }
 }
 
 .fullstop {
@@ -121,6 +144,15 @@
   z-index: -1;
 }
 
+@media screen and (max-width: 484px) {
+  .meetUsBgImage {
+    position: absolute;
+    left: 266px;
+    top: 30.5px;
+    z-index: -1;
+}
+}
+
 .meetUs {
   padding: 100px 0px 120px 0px;
 }
@@ -135,6 +167,18 @@
   z-index: -1;
 }
 
+@media screen and (max-width: 484px) {
+  .meetUsBanner {
+    position: absolute;
+    width: 414px;
+    height: 426px;
+    left: -1px;
+    top: 3596.5px;
+    background-color: #171717;
+    z-index: -1;
+  }
+}
+
 .meetUsCard {
   width: 265px;
   height: 347px;
@@ -143,12 +187,45 @@
   border-radius: 20px;
 }
 
+@media screen and (max-width: 484px) {
+  .meetUsCard {
+    width: 96.66px;
+    height: 146.57px;
+    background: #FFFFFF;
+    box-shadow: 2px 6px 30px rgba(191, 191, 191, 0.35);
+    border-radius: 12px;
+  }
+}
+
 .meetUsImg {
   position: relative;
   width: 153px;
   height: 155px;
   top: -60px;
   margin-bottom: -50px;
+}
+
+@media screen and (max-width: 484px) {
+  .meetUsImg {
+    position: relative;
+    width: 55.81px;
+    height: 56.54px;
+    top: -30px;
+  }
+}
+
+@media screen and (max-width: 484px) {
+  .meetUsContent {
+    font-size: 11px;
+  }
+  
+  .meetUsHeading {
+    font-size: 15px;
+  }
+
+  .timelineButton {
+    display: none;
+  }
 }
 
 .services {
@@ -164,5 +241,16 @@
 .footer{
   background-color: #5446DB;
   margin:0px auto;
-  padding: 40px;
+  padding: 70px;
+}
+
+@media screen and (max-width: 484px) {
+  .mobileButtonText {
+    font-size: 10px;
+  }
+
+  .footerImg {
+    height: 20px;
+    width: 20px;
+  }
 }

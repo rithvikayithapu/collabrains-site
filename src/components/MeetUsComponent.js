@@ -13,10 +13,10 @@ const MeetUs = () => {
           <CardImg className="meetUsImg" top src={item.image} alt={item.alt} />
         </div>
         <CardBody>
-          <CardTitle className="heading d-flex justify-content-center mb-5">{item.name}</CardTitle>
-          <CardText className="content text-center d-flex justify-content-center mb-5">{item.description}</CardText>
+          <CardTitle className="heading meetUsHeading d-flex justify-content-center mb-md-5">{item.name}</CardTitle>
+          <CardText className="content meetUsContent text-center d-flex justify-content-center mb-md-5">{item.description}</CardText>
           <div className="d-flex justify-content-center">
-            <Button className="timelineButton content text-white ">Check Profile</Button>
+            <Button className="timelineButton meetUsContent content text-white">Check Profile</Button>
           </div>
         </CardBody> 
       </Card>
@@ -33,7 +33,7 @@ const MeetUs = () => {
         </div>
       </div>
       <MeetUsBanner />
-      <div className="row d-flex justify-content-center mt-5">
+      <div className="d-lg-flex justify-content-center mt-md-5">
         <CardDeck>
           {leaders}
         </CardDeck>

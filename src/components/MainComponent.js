@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Home from './HomeComponent';
-import Hamburger from './HamburgerComponent';
 import Header from './HeaderComponent';
 import Webinar from './WebinarsComponent';
 import Projects from './ProjectsComponent';
@@ -13,7 +12,6 @@ class Main extends Component {
     return (
       <div>
           <Header />
-          <Hamburger />
           <Home />
           <Webinar />
           <Projects />

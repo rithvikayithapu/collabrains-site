@@ -10,11 +10,11 @@ import PurpleBg from './PurpleBgComponent';
 const Webinar = () => {
   const responsive = {
     desktop: {
-      breakpoint: { max: 3000, min: 484},
+      breakpoint: { max: 3000, min: 501},
       items: 5
     },
     mobile: {
-      breakpoint: { max: 484, min: 0},
+      breakpoint: { max: 1000, min: 0},
       items: 3
     }
   };
@@ -35,10 +35,10 @@ const Webinar = () => {
   return(
     <div className="container webinarComponent" id="webinars">
       <div className="row">
-        <div className="col-7 d-flex justify-content-end">
+        <div className="col-12 col-md-7 d-flex justify-content-end">
           <h1 className="heading">Webinars</h1>
         </div>
-        <div className="col-5 d-flex justify-content-start">
+        <div className="col-12 col-md-5 d-flex justify-content-start">
           <img className="img-fluid" src="assets/images/Group-248.png" alt="live logo" />
         </div>
       </div>
