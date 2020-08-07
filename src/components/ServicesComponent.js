@@ -5,12 +5,12 @@ const Services = () => {
   return(
     <div className="container services" id="ourservices">
       <div className="row">
-        <div className="col-8">
-          <h3 className="buttonText mr-5 d-flex justify-content-end">What Can We Do?</h3>
-          <h1 className="heading mr-2 d-flex justify-content-end">OUR SERVICES<h1 className="heading fullstop">.</h1></h1>
+        <div className="col-12">
+          <h3 className="buttonText servicesContent d-flex justify-content-center">What Can We Do?</h3>
+          <h1 className="heading servicesHeading d-flex justify-content-center">OUR SERVICES<h1 className="heading servicesHeading fullstop">.</h1></h1>
         </div>
         <div>
-          <img className="mt-3" src="assets/images/Vector.png" alt="box" />
+          <img className="servicesImg" src="assets/images/Vector.png" alt="box" />
         </div>
       </div>
        <div className="row">

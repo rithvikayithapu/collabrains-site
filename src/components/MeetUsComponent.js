@@ -27,13 +27,13 @@ const MeetUs = () => {
     <div className="container" id="meetus">
       <div className="row meetUs">
         <div className="col-12">
-          <h3 className="buttonText d-flex justify-content-center">You Can Trust Us</h3>
+          <h3 className="buttonText servicesContent d-flex justify-content-center">You Can Trust Us</h3>
           <h1 className="heading d-flex justify-content-center">MEET US<h1 className="heading text-white">.</h1></h1>
           <img src="assets/images/Group-239.png" alt="boxes" className="meetUsBgImage" />
         </div>
       </div>
       <MeetUsBanner />
-      <div className="d-lg-flex justify-content-center mt-md-5">
+      <div className="d-md-flex justify-content-center mt-md-5">
         <CardDeck>
           {leaders}
         </CardDeck>

@@ -15,23 +15,23 @@ const Projects = () => {
         key={item.id}
       >
         <div className="row">
-          <div className="col-8">
+          <div className="col-md-8">
             <img src={item.image} alt={item.alt} />
           </div>
-          <div className="col-4">
+          <div className="col-md-4">
             <h4 className="vertical-timeline-element-subtitle content">{item.number}</h4>
             <h3 className="vertical-timeline-element-title heading">{item.title}</h3>
           </div>
         </div>
         <ul>
-          <li className="content">{item.message1}</li>
-          <li className="content">{item.message2}</li>
+          <li className="content timelineContentHide">{item.message1}</li>
+          <li className="content timelineContentHide">{item.message2}</li>
         </ul>
-        <p className="content">
+        <p className="content timelineContentHide">
           {item.content}
         </p>
         <div className="row">
-          <div className="col-5 offset-7">
+          <div className="col-md-5 offset-md-7">
             <button className="timelineButton buttonText text-white">Try Now</button>
           </div>
         </div>
@@ -41,7 +41,7 @@ const Projects = () => {
 
   return(
     <div className="container projectsComponent" id="projects">
-      <h4 className="heading d-flex justify-content-center">Great & Awesome Works</h4>
+      <h4 className="heading servicesContent d-flex justify-content-center">Great & Awesome Works</h4>
       <h1 className="heading d-flex justify-content-center">OUR PROJECTS<h1 className="heading fullstop">.</h1></h1>
       <VerticalTimeline>
         {project}
