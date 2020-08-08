@@ -41,6 +41,15 @@
 
   background: url(Vector-294-2.png);
   }
+
+  .homeimages {
+    width: 326px;
+    height: 223px;
+  }
+
+  .home {
+    padding: 100px 0px 100px 0px;
+  }
 }
 
 .carousel-indicator {
@@ -85,7 +94,7 @@
 
 @media screen and (max-width: 484px) {
   .webinarComponent {
-    padding: 110px 0px 200px 0px;
+    padding: 110px 0px 215px 0px;
   }
 }
 
@@ -114,7 +123,7 @@
     width: 1070px;
     height: 256px;
     left: -670px;
-    top: 1070px;
+    top: 890px;
 
     background: linear-gradient(76.16deg, #5814B3 17.66%, #2030B8 95.59%);
     z-index: -1;
@@ -191,7 +200,7 @@
     width: 414px;
     height: 520px;
     left: -1px;
-    top: 3186.5px;
+    top: 3036.5px;
     background-color: #171717;
     z-index: -1;
   }
@@ -264,7 +273,7 @@
     height: 31.45px;
     width: 32px;
     left: 342.64px;
-    top: 3835.33px;
+    top: 3675.33px;
     
     z-index: -1;
   }
@@ -296,7 +305,7 @@
   }
 
   .footerImg {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
   }
 }

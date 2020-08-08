@@ -29,13 +29,13 @@ const Home = () => {
     return (
       <CarouselItem onExiting={() => setAnimating(true)} onExited={() => setAnimating(false)} key={item.id}>
         <div className="row home">
-          <div className="col-10 col-sm-5">
+          <div className="col-10 col-md-5">
             <h1 className="heading pt-5 pb-5">{item.heading}</h1>
             <p className="content pb-5">{item.content}</p>
-            <Button className="btn btn-lg text-white heading discover">Discover</Button>
+            <Button className="btn btn-lg timelineContentHide text-white heading discover">Discover</Button>
           </div>
-          <div className="col-2 col-sm-7 d-flex align-items-end">
-            <img src={item.image} alt={item.alt} className="m-2" />
+          <div className="col-2 col-md-7 d-sm-flex align-items-end">
+            <img src={item.image} alt={item.alt} className="m-2 homeimages" />
           </div>
         </div>
       </CarouselItem>
