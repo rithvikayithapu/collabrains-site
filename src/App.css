@@ -52,8 +52,12 @@
   }
 }
 
-.carousel-indicator {
-  background: linear-gradient(78.35deg, #5814B3 17.66%, #2030B8 95.59%);
+.carousel-indicators .active{
+  background-color:  #5814B3;
+}
+
+.carousel-indicators .inactive{
+  background-color:  #000000;
 }
 
 .webinarPadding {
@@ -120,7 +124,7 @@
 @media screen and (max-width: 484px) {
   .purplebg {
     position: absolute;
-    width: 1070px;
+    width: 1083px;
     height: 256px;
     left: -670px;
     top: 890px;

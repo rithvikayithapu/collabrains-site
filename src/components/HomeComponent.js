@@ -46,7 +46,7 @@ const Home = () => {
     <div className="container mb-3" id="home">
       <HomePurple />
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
-        <CarouselIndicators className="carousel-indicator" items={TEXT} activeIndex={activeIndex} onClickHandler={goToIndex} />
+        <CarouselIndicators items={TEXT} activeIndex={activeIndex} onClickHandler={goToIndex} />
         {slides}
       </Carousel>
     </div>
