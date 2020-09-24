@@ -38,28 +38,28 @@ const TEXT = [
     id: 1,
     image: `${process.env.PUBLIC_URL}/assets/images/Humaaans-graphs.png`,
     heading: 'Collabrains',
-    content: 'We aim to create a community where developers and enthusiasts can come together and collaborate to create a new internet, we will create the right environment by facilitating access to the right tools and network required to learn and grow.',
+    content: 'We aim to create a community where developers and enthusiasts can come together and collaborate to create a new internet.',
     alt: 'graphs'
   },
   {
     id: 2,
     image: `${process.env.PUBLIC_URL}/assets/images/Humaaans-3-Characters.png`,
     heading: 'Mission',
-    content: 'We believe that the internet will look a lot different in the next ten years, it will evolve into a new frontier that will empower users around the world like never before. The Web 3.0 as we call it would consist of decentralized value transfer protocols, open-source software, open Blockchain networks with new business models with an Emphasis on data ownership and privacy',
+    content: 'We believe that the internet will look a lot different in the next ten years, it will evolve into a new frontier that will empower users around the world like never before..',
     alt: '3 characters'
   },
   {
     id: 3,
     image: `${process.env.PUBLIC_URL}/assets/images/Humaaans-phone.png`,
     heading: 'Community',
-    content: 'Create a collaborative growth based environment for people to engage and grow. Homebase for the hackers, the builders, the breakers, the dreamers.',
+    content: 'Create a collaborative growth based environment for people to engage and grow. Homebase for the hackers, the builders, the dreamers.',
     alt: 'phone'
   },
   {
     id: 4,
     image: `${process.env.PUBLIC_URL}/assets/images/Humaaans-2-Characters.png`,
     heading: 'Education',
-    content: 'Give access to the latest content and tooling required for developers and students to kickstart their career in Blockchain. Learn Track - Access to curated content designed by the best in web3.',
+    content: 'Give access to curated content designed by the best in web3 along with tooling required for developers and students to kickstart their career in Blockchain.',
     alt: '3 characters apps'
   }
 ];

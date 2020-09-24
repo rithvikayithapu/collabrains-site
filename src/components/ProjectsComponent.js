@@ -46,7 +46,7 @@ const Projects = () => {
       <VerticalTimeline>
         {project}
       </VerticalTimeline>
-      <div className="row-content d-flex justify-content-center">
+      <div className="row-content d-md-flex justify-content-center">
         <button className="viewMore buttonText text-white">View More</button>
       </div>
     </div>
