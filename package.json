@@ -1,0 +1,53 @@
+{
+  "name": "collabrains",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://rithvik2607.github.io/TWCollabrains/",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "aos": "^2.3.4",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^3.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-responsive-carousel": "^3.2.10",
+    "react-scripts": "4.0.0",
+    "react-scroll": "^1.8.1",
+    "react-vertical-timeline-component": "^3.3.1",
+    "tailwindcss": "^1.9.6",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "npm run watch:css && react-scripts start",
+    "build": "npm run watch:css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.0.0",
+    "postcss-cli": "^8.2.0"
+  }
+}

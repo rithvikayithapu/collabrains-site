@@ -1,0 +1,68 @@
+.poppins500 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.poppinsBold {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.poppinsNormal {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.poppins600 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.robotoBold {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.roboto500 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.montserrat600 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.montserratNormal {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.button {
+  background: linear-gradient(278.89deg, #AC27DB -82.41%, #4726CE 128.52%);
+  box-shadow: 2px 5px 15px rgba(145, 65, 230, 0.37);
+}
+
+.vertical-timeline::before {
+  background: #542AB8 !important
+}
+
+.carousel .control-dots .dot.selected,.carousel .control-dots .dot:hover {
+  background: #542AB8 !important
+ }
+
+ .carousel .control-dots .dot {
+   background: #DEDEDE !important
+ }
